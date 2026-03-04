@@ -17,6 +17,7 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [Algorithms, Data Structures, and Design Patterns for Self-Taught Developers](https://web.archive.org/web/20210625134101/https://antjanus.com/blog/web-development-tutorials/learn-the-unlearned-algorithms-data-structures-and-design-patterns/)
 * [HTTP: The Protocol Every Web Developer Must Know](https://code.tutsplus.com/http-the-protocol-every-web-developer-must-know-part-1--net-31177t)
 * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
+* [How Browser Caching Works](https://thecodeboss.dev/2016/05/how-browser-caching-works/)
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets](http://www.joelonsoftware.com/articles/Unicode.html)
 * [What Every Developer Should Know About Time](https://unix4lyfe.org/time/?v=1)
 
