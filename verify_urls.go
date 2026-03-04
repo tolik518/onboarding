@@ -45,11 +45,12 @@ func main() {
             resp.Body.Close()
         }
 
-        if err != nil || resp.StatusCode != 200 {
+        // some websites return 403 for bots, so we consider 403 as a valid response
+        if err != nil || (resp.StatusCode != 200 && resp.StatusCode != 403) {
             brokenUrls = append(brokenUrls, url)
             fmt.Println("FAILED - ", errormessage)
         } else {
-            fmt.Println("OK")
+            fmt.Println("OK", resp.StatusCode)
         }
     }
 
