@@ -15,9 +15,9 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [Google Developer Training For The Web](https://developers.google.com/training/web/)
 * [Visualising data structures and algorithms through animation](https://visualgo.net/)
 * [Algorithms, Data Structures, and Design Patterns for Self-Taught Developers](https://web.archive.org/web/20210625134101/https://antjanus.com/blog/web-development-tutorials/learn-the-unlearned-algorithms-data-structures-and-design-patterns/)
-* [HTTP: The Protocol Every Web Developer Must Know](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+* [HTTP: The Protocol Every Web Developer Must Know](https://code.tutsplus.com/http-the-protocol-every-web-developer-must-know-part-1--net-31177t)
 * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
-* [How Browser Caching Works](https://thesocietea.org/2016/05/how-browser-caching-works/)
+* [How Browser Caching Works](https://thecodeboss.dev/2016/05/how-browser-caching-works/)
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets](http://www.joelonsoftware.com/articles/Unicode.html)
 * [What Every Developer Should Know About Time](https://unix4lyfe.org/time/?v=1)
 
@@ -33,7 +33,6 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [Patterns of Enterprise Application Architecture](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/ref=sr_1_1?ie=UTF8&qid=1476887236&sr=8-1&keywords=patterns+of+enterprise+application+architecture)
 * [Domain Driven Design](https://www.amazon.de/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215/ref=sr_1_1?ie=UTF8&qid=1476887211&sr=8-1&keywords=domain+driven+design)
 * [Domain-Driven Transformation](https://www.youtube.com/watch?v=SdjGK9hn6ec)
-* [Introduction to CQRS](http://www.codeproject.com/Articles/555855/Introduction-to-CQRS)
 * [CQRS and Event Sourcing](https://www.youtube.com/watch?v=JHGkaShoyNs)
 * [Your Code as a Crime Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/)
 * [Awesome API](https://github.com/Kikobeats/awesome-api)
@@ -45,7 +44,7 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [PHP The Right Way](http://www.phptherightway.com/)
 * [PHP The Wrong Way](http://www.phpthewrongway.com/)
 * [A response to PHP The Wrong Way](https://medium.com/@jon.lemaitre/a-response-to-php-the-wrong-way-fe7bb253e295)
-* [PHP Framework Interoperability Group](http://www.php-fig.org/)
+* [PHP Framework Interoperability Group](https://www.php-fig.org/)
 * [PSR - PHP Standard Recommendation](https://en.wikipedia.org/wiki/PHP_Standard_Recommendation)
 * [PHP Library Discovery](https://www.youtube.com/watch?v=3kD9t0GVGGY&feature=youtu.be)
 * [PHP Logging Basics](https://www.loggly.com/ultimate-guide/php-logging-basics/)
@@ -57,7 +56,7 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [Resources To Learn Kotlin The Right Way](https://superkotlin.com/resources-learn-kotlin/)
 * [Programming Kotlin by Venkat Subramaniam](https://pragprog.com/titles/vskotlin/programming-kotlin/)
 * [Awesome Kotlin](https://github.com/KotlinBy/awesome-kotlin)
-* [Mastering Kotlin standard functions: run, with, let, also and apply](https://medium.com/@elye.project/mastering-kotlin-standard-functions-run-with-let-also-and-apply-9cd334b0ef84)
+* [Mastering Kotlin standard functions: run, with, let, also and apply](https://medium.com/mobile-app-development-publication/mastering-kotlin-standard-functions-run-with-let-also-and-apply-9cd334b0ef84)
 * [KotlinConf 2018 - Kotlin Coroutines in Practice by Roman Elizarov](https://www.youtube.com/watch?v=a3agLJQ6vt8)
 * [Ktor: Web backend framework for Kotlin. Easy to use, fun and asynchronous.](https://ktor.io)
 
@@ -84,13 +83,12 @@ Because we think it might help others as well we open-sourced it. If you know so
 * [PHPStan](https://github.com/phpstan/phpstan)
 * [PHPUnit](https://phpunit.de/)
 * [Introduction to PHP Unit](https://jtreminio.com/2013/03/unit-testing-tutorial-introduction-to-phpunit/)
-* [12 Unit Testing Benefits That Will Blow Your Mind](https://methodpoet.com/unit-testing-benefits/)
-* [A Beginner's Guide to npm](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+* [A Beginner's Guide to npm](https://www.sitepoint.com/npm-guide/)
 
 ## Environment
 
 * [Basic UNIX commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
-* [Explain Shell - Let it explain you what's going on](http://explainshell.com/)
+* [Explain Shell - Let it explain you what's going on](https://explainshell.com/)
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
 * [Docker Docs](https://docs.docker.com/)
 * [Docker Swarms Introduction](https://docs.docker.com/get-started/part4/)
@@ -132,7 +130,7 @@ Because we think it might help others as well we open-sourced it. If you know so
 
 * [OWASP - Open Web Application Security Project](https://www.owasp.org/index.php/Main_Page)
 * [A Gentle Introduction to Application Security](https://paragonie.com/blog/2015/08/gentle-introduction-application-security)
-* [Juice Shop - A vulnerable web app to play around](https://github.com/bkimminich/juice-shop)
+* [Juice Shop - A vulnerable web app to play around](https://github.com/juice-shop/juice-shop)
 
 ## Best Practices
 

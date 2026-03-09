@@ -10,6 +10,20 @@ import (
     "time"
 )
 
+// URLs that return a non-200 status code by design (e.g. bot protection).
+// Maps URL -> expected status code. Loaded from url_exceptions.txt (format: "status_code url").
+func loadUrlExceptions(filename string) map[string]int {
+	exceptions := map[string]int{}
+	if data, err := os.ReadFile(filename); err == nil {
+		for _, m := range regexp.MustCompile(`(?m)^(\d+)\s(.+)$`).FindAllStringSubmatch(string(data), -1) {
+			var code int
+			fmt.Sscanf(m[1], "%d", &code)
+			exceptions[m[2]] = code
+		}
+	}
+	return exceptions
+}
+
 func main() {
     fmt.Println("Verifying URLs..")
 
@@ -28,6 +42,7 @@ func main() {
             TLSClientConfig: &tls.Config{},
         },
     }
+    urlExceptions := loadUrlExceptions(".github/url_exceptions.txt")
 
     var brokenUrls []string
     for _, urlElement := range urlElementRegex.FindAllStringSubmatch(fileContent, -1) {
@@ -45,7 +60,13 @@ func main() {
             resp.Body.Close()
         }
 
-        if err != nil || resp.StatusCode != 200 {
+        expectedCode := 200
+		// look for http codes from url_exceptions.txt, fallback to code 200
+		if code, isException := urlExceptions[url]; isException {
+			expectedCode = code
+		}
+
+        if err != nil || resp.StatusCode != expectedCode {
             brokenUrls = append(brokenUrls, url)
             fmt.Println("FAILED - ", errormessage)
         } else {
